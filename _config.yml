@@ -274,12 +274,12 @@ reward_settings:
   # If true, reward will be displayed in every article by default.
   enable: true
   animation: false
-  #comment: Donate comment here.
+  comment: 觉得文章对您有帮助请我吃个包子^_^
 
 reward:
-  enable: true
-  comment: 觉得文章对您有帮助请我吃个包子^_^
   wechatpay: /images/reward/wechatpay.png
+  #alipay: /images/alipay.png
+  #bitcoin: /images/bitcoin.png
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -373,7 +373,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -873,7 +873,7 @@ three:
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 # For more information: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # Display on mobile or not
   color: "0,0,255" # RGB values, use `,` to separate
   opacity: 0.5 # The opacity of line: 0~1
